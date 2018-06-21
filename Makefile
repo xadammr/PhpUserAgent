@@ -5,4 +5,4 @@ test:
 .PHONY: generate
 generate:
 	php tools/user_agent_sorter.php > tests/user_agents.tmp.json && mv tests/user_agents.tmp.json tests/user_agents.json
-	php tools/constant_generator.php > Source/browser_constants.php
+	php tools/constant_generator.php > src/browser_constants.php
